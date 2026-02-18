@@ -1,43 +1,28 @@
-Task-2: Predictive Analysis Using Machine Learning
-Internship Project – CODTECH
-Objective
+# **TASK-2: PREDICTIVE ANALYSIS USING MACHINE LEARNING**
+**Internship Project – CODTECH**
 
-Build a machine learning model to predict customer payment value using historical e-commerce transaction data.
+## **OBJECTIVE**
+Develop a machine learning model to predict customer payment values using historical e-commerce transaction data, enabling accurate sales forecasting, revenue planning, and customer insights.
 
-Dataset
+## **DATASET**
+Processed e-commerce transaction dataset derived from Task-1, including relevant numerical and categorical features for predictive modeling.
 
-Processed e-commerce transaction dataset derived from Task-1, containing relevant numerical and categorical features for predictive modeling.
+## **ANALYSIS PERFORMED**
+- **Data preprocessing & cleaning:** handled missing values, outliers, and inconsistencies  
+- **Encoding of categorical variables:** transformed categorical features into numerical format  
+- **Feature selection & train-test split:** identified key predictors and split data for training and evaluation  
+- **Model training:** implemented a **Random Forest Regressor** to capture non-linear patterns  
+- **Model evaluation:** assessed performance using **Mean Absolute Error (MAE)** and **R² score**
 
-Analysis Performed
+## **KEY INSIGHTS**
+- **MAE ≈ 0.54**, indicating low prediction error  
+- **R² Score ≈ 0.40**, showing moderate explanatory power  
+- **Top Predictors:** Price and shipping charges  
+- Tree-based models capture non-linear relationships better than linear models  
+- Results can support sales forecasting, customer segmentation, targeted marketing, and revenue planning
 
-Data preprocessing and cleaning
-
-Encoding of categorical variables
-
-Feature selection and train-test split
-
-Model training using Random Forest Regressor
-
-Model evaluation using MAE and R² score
-
-Key Insights
-
-Mean Absolute Error (MAE) ≈ 0.54 indicating low prediction error.
-
-R² Score ≈ 0.40, showing moderate explanatory power of the model.
-
-Price and shipping charges are the strongest predictors of payment value.
-
-Tree-based models capture non-linear relationships better than linear models.
-
-Results can support sales forecasting, customer segmentation, and revenue planning.
-
-Tools Used
-
-Python
-
-Pandas & NumPy
-
-Scikit-learn
-
-Jupyter Notebook
+## **TOOLS USED**
+- **Python**  
+- **Pandas & NumPy**  
+- **Scikit-learn**  
+- **Jupyter Notebook**
