@@ -6,7 +6,7 @@ Build a machine learning model to predict customer payment value using historica
 
 Dataset
 
-Processed e-commerce dataset derived from Task-1 containing relevant numerical and categorical features for modeling.
+Processed e-commerce transaction dataset derived from Task-1, containing relevant numerical and categorical features for predictive modeling.
 
 Analysis Performed
 
@@ -18,7 +18,7 @@ Feature selection and train-test split
 
 Model training using Random Forest Regressor
 
-Performance evaluation using MAE and R² score
+Model evaluation using MAE and R² score
 
 Key Insights
 
